@@ -1,12 +1,12 @@
 const lib = require("./lib");
-const plugin = {
-    customTokenTypes:lib.tokTypes,
-    plugins: [function(state){
+const exportsPlugin = {
+    plugin:function(state){
         return {
-          parserOverride(code, opts) {
-              return lib.parse(code, opts);
-          }
+            parserOverride(code, opts) {
+                return lib.parse(code, opts);
+            }
         }
-    }]
-  }
-module.exports = plugin.default = plugin;
+    },
+    customTokenTypes:lib.tokTypes,
+}
+module.exports = exportsPlugin.default = exportsPlugin;
