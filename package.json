@@ -1,0 +1,25 @@
+{
+  "name": "babel-plugin-variable-token",
+  "version": "1.0.0",
+  "description": "support different token,support different languages javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zy445566/babel-plugin-variable-token.git"
+  },
+  "keywords": [
+    "keyword",
+    "token",
+    "babel",
+    "plugin"
+  ],
+  "author": "zy445566",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zy445566/babel-plugin-variable-token/issues"
+  },
+  "homepage": "https://github.com/zy445566/babel-plugin-variable-token#readme"
+}
