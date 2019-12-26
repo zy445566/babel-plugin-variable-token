@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-variable-token",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "support different token,support different languages javascript",
   "main": "index.js",
   "scripts": {

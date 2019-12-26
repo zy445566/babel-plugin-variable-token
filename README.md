@@ -3,6 +3,10 @@ support different token,support different languages javascript
 
 `fork from @babel/parser`
 
+# install
+```sh
+npm install babel-plugin-variable-token
+```
 # example
 ```js
 const babelCore = require('@babel/core')
